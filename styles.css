@@ -1,3 +1,22 @@
+ /*CAROUSEL*/
+
+ #carousel-movie {
+   max-height: 700px;
+   width:100%;
+ }
+
+ #carousel-movie img{
+   max-height: 500px;
+
+ }
+
+
+.black{
+  background-color: black;
+
+}
+
+
 td{
   border-top: none !important;
 }
@@ -5,3 +24,49 @@ td{
  th {
    border-top: none !important;
  }
+
+.now-playing{
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10vh;
+  font-size: 5em;
+
+}
+ .poster{
+   max-height: 375px;
+   -webkit-box-shadow: 61px 54px 283px -79px rgba(124,124,125,1);
+   -moz-box-shadow: 61px 54px 283px -79px rgba(124,124,125,1);
+   box-shadow: 61px 54px 283px -79px rgba(124,124,125,1);
+ }
+
+ .showing{
+   text-align: center;
+   display: inline-block;
+   width: 100%;
+   font-family: 'Droid Sans', sans-serif;
+ }
+
+ .showing h2{
+   font-family: 'Droid Sans', sans-serif;
+   font-weight: bold;
+   text-transform: uppercase;
+ }
+
+ .showing caption{
+  text-transform: uppercase;
+
+ }
+
+ /*.inside{
+   display: flex !important;
+   justify-content: space-around;
+   padding-left: 2em;
+ }*/
+
+span{
+  padding-left: 3em;
+  padding-right: 3em;
+
+}
