@@ -49,6 +49,11 @@ th {
 
 #now-playing{
   background: url(img/now-showing-bk.jpg);
+min-height: 500px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 
 }
 #now-playing ul{
@@ -123,5 +128,58 @@ text-align: center;
   font-size: 3em;
   display: inline-block;
   /*padding-left:  2em;*/
+}
 
+/*CALENDAR*/
+
+.schedule{
+  background-color: black;
+  width: 100%;
+}
+
+.day {
+  width: 14.2857143%;
+  float: left;
+  padding: .5em;
+}
+
+.day-name {
+  font-size: 2em;
+  text-transform: uppercase;
+  color:rgb(215, 65, 78);
+  margin: 0;
+  margin-bottom: -.1em;
+}
+
+.day-date {
+  margin: 0;
+  margin-bottom: 1em;
+  font-size: .8em;
+  color: #666;
+}
+
+.day-item {
+  background: #eee;
+  padding: .5em;
+  margin-bottom: 1em;
+  font-size: .8em;
+  height: 7em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.day-item-title,
+.day-item-time,
+.day-item-description {
+  margin: 0;
+}
+
+.day-item-title {
+  color: rgb(215, 65, 78); 
+}
+
+.day-item-time {
+  color: #aaa;
+  font-weight: bold;
 }
