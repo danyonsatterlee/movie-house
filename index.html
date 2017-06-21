@@ -27,20 +27,20 @@
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle " data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        <h3>Big Horn Cinema</h3>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#carousel-movie"></a><h3>Big Horn Cinema</h3>
       </div>
       <div class="collapse navbar-collapse ">
         <ul class="nav navbar-nav navbar-right">
 
-          <li><a href="#">Now Playing</a></li>
-          <li><a href="#">Schedule</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#now-playing">Now Playing</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
           <li></li>
         </ul>
 
@@ -64,14 +64,19 @@
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
+      <div class="cover"></div>
       <div class="item active">
-        <img src="img/popcorn.jpg" alt="...">
+        <div class="classy">
+          <img  src="img/popcorn2.jpg" alt="...">
+        </div>
         <div class="row">
           <div class="col-md-9 col md-10">
-            <h1>Summer Hours Out Now!</h1>
+
           </div>
         </div>
         <div class="carousel-caption">
+          <h1>Summer Hours are here</h1>
+          <h3>Matinees everyday</h3>
 
         </div>
       </div>
@@ -85,11 +90,11 @@
     </div>
 
     <!-- Controls -->
-    <a class="left carousel-control" href="#carousel-movie" role="button" data-slide="prev">
+    <a class="left " href="#carousel-movie" role="button" data-slide="prev">
 
       <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control" href="#carousel-movie" role="button" data-slide="next">
+    <a class="right " href="#carousel-movie" role="button" data-slide="next">
 
       <span class="sr-only">Next</span>
     </a>
@@ -104,107 +109,116 @@
       <h1 class="now-playing"> Now Playing</h1>
       <hr>
       <!-- MOVIE 1-->
-      <div class="col-sm-12 col-md-12 col-lg-6 pull-left showing">
+      <div class="col-xs-12 col-md-12 col-lg-6 pull-left showing">
+        <div class="fixer">
+          <img class="poster pull-left img-responsive" src="img/ww-poster.jpg" alt="Wonder Woman">
 
-        <img class="poster pull-left img-responsive" src="img/ww-poster.jpg" alt="Wonder Woman">
-        <h2 class="pull-left">Wonder Woman</h2>
+          <h2 >Wonder Woman</h2>
 
-        <ul class="pull-left">
-          <li class="info">2hrs 21 mins</li>
-          <li class="info">|</li>
-          <li class="info">PG-13</li>
-        </ul>
 
-        <ul class="pull-left">
+          <ul >
+            <li class="info">2hrs 21 mins</li>
+            <li class="info">|</li>
+            <li class="info">PG-13</li>
+          </ul>
 
-          <li class="times">4:00</li>
-          <li class="times">7:00</li>
-        </ul>
+          <ul >
 
-        <ul class="pull-left">
-          <li class="info"><a href="#">Trailer</a>
-          </li>
-          <li class="info">|</li>
-          <li class="info"><a href="#">Buy Tickets</a></li>
-        </ul>
+            <li class="times">4:00</li>
+            <li class="times">7:00</li>
+          </ul>
+
+          <ul >
+            <li class="info"><a href="#">Trailer</a>
+            </li>
+            <li class="info">|</li>
+            <li class="info"><a href="#">Buy Tickets</a></li>
+          </ul>
+        </div>
       </div>
 
       <!-- MOVIE 2 -->
-      <div class="col-sm-12 col-md-12 col-lg-6 pull-left showing">
-        <img class="poster pull-left img-responsive" src="img/cars2-poster.jpg" alt="Cars 3">
-        <h2 class="pull-left">Cars 3</h2><br>
-        <!-- <span class="day-item-time">2:00 — 2:00 3D — 4:00 </span>
-        <span class="day-item-time">4:00 3D — 7:00 — 9:15</span> -->
-        <ul class="pull-left">
-          <li class="info">1hrs 49 mins</li>
-          <li class="info">|</li>
-          <li class="info">G</li>
-        </ul>
+      <div class="col-xs-12 col-md-12 col-lg-6 pull-left showing">
+        <div class="fixer">
+          <img class="poster pull-left img-responsive" src="img/cars2-poster.jpg" alt="Cars 3">
+          <h2  >Cars 3</h2><br>
+          <!-- <span class="day-item-time">2:00 — 2:00 3D — 4:00 </span>
+          <span class="day-item-time">4:00 3D — 7:00 — 9:15</span> -->
+          <ul  >
+            <li class="info">1hrs 49 mins</li>
+            <li class="info">|</li>
+            <li class="info">G</li>
+          </ul>
 
-        <ul class="pull-left">
-          <li class="times">2:00</li>
-          <li class="times">2:00-3D</li>
+          <ul  >
+            <li class="times">2:00</li>
+            <li class="times">2:00-3D</li>
 
-          <li class="times">4:00</li>
-          <li class="times">4:00-3D</li>
-        </ul>
+            <li class="times">4:00</li>
+            <li class="times">4:00-3D</li>
+          </ul>
 
-        <ul class="pull-left">
-          <li class="info"><a href="#">Trailer</a>
-          </li>
-          <li class="info">|</li>
-          <li class="info"><a href="#">Buy Tickets</a></li>
-        </ul>
+          <ul  >
+            <li class="info"><a href="#">Trailer</a>
+            </li>
+            <li class="info">|</li>
+            <li class="info"><a href="#">Buy Tickets</a></li>
+          </ul>
+        </div>
       </div>
 
-      <div class="col-sm-12 col-md-12 col-lg-6 pull-left showing">
+      <div class="col-xs-12 col-md-12 col-lg-6 pull-left showing">
         <!-- MOVIE 3 -->
-        <img class="poster pull-left img-responsive" src="img/mummy-2017-poster.jpg" alt="The Mummy">
-        <h2 class="pull-left">The Mummy</h2>
+        <div class="fixer">
+          <img class="poster pull-left img-responsive" src="img/mummy-2017-poster.jpg" alt="The Mummy">
+          <h2  >The Mummy</h2>
 
-        <ul class="pull-left">
-          <li class="info">1hr 51 mins</li>
-          <li class="info">|</li>
-          <li class="info">PG-13</li>
-        </ul>
+          <ul  >
+            <li class="info">1hr 51 mins</li>
+            <li class="info">|</li>
+            <li class="info">PG-13</li>
+          </ul>
 
-        <ul class="pull-left">
+          <ul  >
 
-          <li class="times">4:00</li>
-          <li class="times">7:00</li>
-        </ul>
+            <li class="times">4:00</li>
+            <li class="times">7:00</li>
+          </ul>
 
-        <ul class="pull-left">
-          <li class="info"><a href="#">Trailer</a>
-          </li>
-          <li class="info">|</li>
-          <li class="info"><a href="#">Buy Tickets</a></li>
-        </ul>
+          <ul  >
+            <li class="info"><a href="#">Trailer</a>
+            </li>
+            <li class="info">|</li>
+            <li class="info"><a href="#">Buy Tickets</a></li>
+          </ul>
+        </div>
       </div>
 
-      <div class="col-sm-12 col-md-12 col-lg-6 pull-left showing">
 
-        <img class="poster pull-left img-responsive" src="img/captain-underpants-poster.jpg" alt="Captain Underpants Movie">
-        <h2 class="pull-left">Captain <br>Underpants</h2>
+      <div class="col-xs-12 col-md-12 col-lg-6 pull-left showing">
+        <div class="fixer">
+          <img class="poster pull-left img-responsive" src="img/captain-underpants-poster.jpg" alt="Captain Underpants Movie">
+          <h2  >Captain <br>Underpants</h2>
 
-        <ul class="pull-left">
-          <li class="info">1hr 29 mins</li>
-          <li class="info">|</li>
-          <li class="info">PG</li>
-        </ul>
+          <ul  >
+            <li class="info">1hr 29 mins</li>
+            <li class="info">|</li>
+            <li class="info">PG</li>
+          </ul>
 
-        <ul class="pull-left">
+          <ul  >
 
-          <li class="times">4:00</li>
-          <li class="times">7:00</li>
-        </ul>
+            <li class="times">4:00</li>
+            <li class="times">7:00</li>
+          </ul>
 
-        <ul class="pull-left">
-          <li class="info"><a href="#">Trailer</a>
-          </li>
-          <li class="info">|</li>
-          <li class="info"><a href="#">Buy Tickets</a></li>
-        </ul>
+          <ul  >
+            <li class="info"><a href="#">Trailer</a>
+            </li>
+            <li class="info">|</li>
+            <li class="info"><a href="#">Buy Tickets</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -214,12 +228,12 @@
 
   </div>
   <!-- container-->
-  <div class="container-fluid black-bk">
+  <div class="container-fluid ">
 
-    <div class="row">
-      <div class="col-sm-12">
+    <div class="row black-bk">
+      <div class="col-sm-12" id="schedule">
 
-        <h1 class="now-playing">Schedule</h1>
+        <h1 class="now-playing" >Schedule</h1>
         <hr>
         <div class="calendar">
           <div class="day">
@@ -410,43 +424,46 @@
     </div>
   </div>
 
-  <div class="row black-bk">
-    <div class="col-sm-12">
-      <h1 class="now-playing">Contact</h1>
-      <hr>
 
-      <iframe class="center-block" width="60%" height="500px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Big+Horn+Cinemas,+Big+Horn+Avenue,+Cody,+WY&amp;aq=0&amp;oq=Big+Horn+Cinemas&amp;sll=43.000325,-107.554567&amp;sspn=7.254791,16.907959&amp;ie=UTF8&amp;hq=Big+Horn+Cinemas,&amp;hnear=Big+Horn+Ave,+Cody,+Park,+Wyoming+82414&amp;t=m&amp;cid=365397258242220038&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
-      <div class="row">
-        <div class="col-md-4 col-md-offset-2 col-sm-12 ">
+<div class="row black-bk">
 
-          <h3 class="pricing-list text-center">Phone</h3>
-          <div class="prices-div center-block">
-            <p>Movie Line <span class="pull-right">(307) 587-8001</span> </p>
-            <p>Box Office<span class="pull-right">(307) 587-8009</span></p>
+  <div class="col-sm-12" id= "contact">
+    <h1  class="now-playing">Contact</h1>
+    <hr>
 
-          </div>
+    <iframe class="center-block" width="60%" height="500px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Big+Horn+Cinemas,+Big+Horn+Avenue,+Cody,+WY&amp;aq=0&amp;oq=Big+Horn+Cinemas&amp;sll=43.000325,-107.554567&amp;sspn=7.254791,16.907959&amp;ie=UTF8&amp;hq=Big+Horn+Cinemas,&amp;hnear=Big+Horn+Ave,+Cody,+Park,+Wyoming+82414&amp;t=m&amp;cid=365397258242220038&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+    <div class="row">
+      <div class="col-md-4 col-md-offset-2 col-sm-12 ">
 
-        </div>
-        <div class="col-md-4  col-sm-12 ">
-          <h3 class="pricing-list text-center">Address</h3>
-          <div class="address-div center-block">
-            <p class="">2525 Big Horn Ave.
-            </p>
-            <p>Cody, WY 82414 </p>
-
-          </div>
-
+        <h3 class="pricing-list text-center">Phone</h3>
+        <div class="prices-div center-block">
+          <p>Movie Line <span class="pull-right">(307) 587-8001</span> </p>
+          <p>Box Office<span class="pull-right">(307) 587-8009</span></p>
 
         </div>
+
+      </div>
+      <div class="col-md-4  col-sm-12 ">
+        <h3 class="pricing-list text-center">Address</h3>
+        <div class="address-div center-block">
+          <p class="">2525 Big Horn Ave.
+          </p>
+          <p>Cody, WY 82414 </p>
+
+        </div>
+
+
+
       </div>
     </div>
   </div>
+</div>
 
 
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="scripts.js "></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="scripts.js "></script>
 
 </body>
 
