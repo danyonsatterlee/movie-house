@@ -13,6 +13,7 @@ body{
 
 .navbar {
   text-transform: uppercase;
+  background-color: transparent !important;
   /*padding-bottom: 1em;*/
 
 }
