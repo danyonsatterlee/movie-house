@@ -4,8 +4,13 @@
 
 }
 
+
+/*.row{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}*/
 body{
-  background-color: black;
+  background-color: black !important;
   width: 100%;
        margin: 0%;
 
@@ -13,8 +18,8 @@ body{
 
 .navbar {
   text-transform: uppercase;
-  background-color: transparent !important;
   /*padding-bottom: 1em;*/
+  overflow: hidden;
 
 }
 
@@ -233,9 +238,9 @@ th {
 }
 
 
-.fixer{
+/*.fixer{
   float:left;
-}
+}*/
 
 .fixer ul{
   float:left;
@@ -373,6 +378,14 @@ th {
   background-size: cover;
   background-color: rgb(215, 65, 78);
   padding-bottom: 4em;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+
+}
+
+#pricing  .row .special {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
 }
 
 
