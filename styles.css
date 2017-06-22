@@ -1,11 +1,20 @@
 * {
   box-sizing: border-box;
   color: white;
+
+}
+
+body{
+  background-color: black;
+  width: 100%;
+       margin: 0%;
+
 }
 
 .navbar {
   text-transform: uppercase;
   /*padding-bottom: 1em;*/
+
 }
 
 .navbar li a {
@@ -14,18 +23,20 @@
 
 .nav li a:hover {
   background-color: rgb(215, 65, 78) !important;
+  border-radius: 45px;
 
 
 }
 
 .nav li a:focus{
-  background-color: black !important;
+  background-color: transparent !important;
 
 
 }
 
 .nav li a:visted {
-  background-color: black;
+  background-color: transparent !important;
+  opacity:0;
 }
 
 .navbar h3{
@@ -65,14 +76,7 @@
   height: 100%;
   max-width: 1000px;
   padding: 5px;
-  /*background: rgba(226, 226, 226, 1);
-  background: -moz-linear-gradient(-45deg, rgba(226, 226, 226, 1) 0%, rgba(254, 254, 254, 0.01) 100%);
-  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(226, 226, 226, 1)), color-stop(100%, rgba(254, 254, 254, 0.01)));
-  background: -webkit-linear-gradient(-45deg, rgba(226, 226, 226, 1) 0%, rgba(254, 254, 254, 0.01) 100%);
-  background: -o-linear-gradient(-45deg, rgba(226, 226, 226, 1) 0%, rgba(254, 254, 254, 0.01) 100%);
-  background: -ms-linear-gradient(-45deg, rgba(226, 226, 226, 1) 0%, rgba(254, 254, 254, 0.01) 100%);
-  background: linear-gradient(135deg, rgba(226, 226, 226, 1) 0%, rgba(254, 254, 254, 0.01) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=1);*/
+
 }
 
 .carousel-caption h1 {
@@ -236,6 +240,24 @@ th {
   float:left;
   text-align: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .carousel-caption {
+    /*right:3%;*/
+    top: 30%;
+    right: auto;
+
+    left: 2% !important;
+    text-align: left !important;
+    height: 100%;
+    max-width: 1000px;
+    padding: 5px;
+
+  }
+
+}
+
+
 @media screen and (max-width: 768px) {
   .day {
     min-width: 30%;
@@ -265,6 +287,34 @@ th {
     margin-left: 0em;
     width: 100%;
   }
+  .carousel-caption {
+    /*right:3%;*/
+    top: 30%;
+    right: auto;
+
+    left: 2% !important;
+    text-align: left !important;
+    height: 100%;
+    max-width: 1000px;
+    padding: 5px;
+
+  }
+  /*.carousel-caption h1 {
+    font-size: 5em;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+
+
+  .carousel-caption h3 {
+    font-size: 3em;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+  }*/
 }
 
 @media screen and (max-width: 375px) {

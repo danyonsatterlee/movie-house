@@ -13,3 +13,6 @@ $('nav a').click(function () {
   }, 800);
   return false;
 });
+
+
+document.getElementsByClassName('.nav li a:hover ').
